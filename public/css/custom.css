@@ -1,0 +1,82 @@
+i.custom-play-btn {
+    border: 1px solid #aaa !important;
+    border-bottom: 0 !important;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center !important;
+    line-height: 132px !important;
+    font-size: 42px;
+    cursor: pointer;
+    z-index: 99;
+    position: relative;
+}
+.spinner-border {
+    text-align: center !important;
+    line-height: 132px !important;
+    font-size: 42px;
+    cursor: pointer;
+    z-index: 99;
+    position: relative;
+    border: 1px solid #aaa !important;
+    border-bottom: 0 !important;
+    padding: 0;
+    top: 40%;
+    left: 40%;
+}
+.song-switch{
+    cursor: pointer;
+}
+.wave-container canvas, .wave-container wave, .wave-container {
+    height: 100px;
+}
+
+
+.audio-counter {    
+    border-bottom: 1px solid #aaa !important;
+    color: #ff6f1a;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.volume-controller {
+    padding: 5px 8px;
+    width: 100%;
+    float: left;
+    border-top: 1px solid #aaa !important;
+    font-size: 12px
+}
+.orange-text {
+    color: #ff6f1a;
+}
+.app .slider.slider-horizontal{
+    max-width: 40%;
+}
+
+div.bigstars div.rateit-range
+{
+    background: url(/css/star-white32.png);
+    height: 32px;
+}
+
+div.bigstars div.rateit-hover
+{
+    background: url(/css/star-gold32.png);
+}
+
+div.bigstars div.rateit-selected
+{
+    background: url(/css/star-red32.png);
+}
+
+div.bigstars div.rateit-reset
+{
+    background: url(/css/star-black32.png);
+    width: 32px;
+    height: 32px;
+}
+
+div.bigstars div.rateit-reset:hover
+{
+    background: url(/css/star-white32.png);
+}

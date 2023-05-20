@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Google Pay</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <script src="utils.js" defer></script>
+    <!-- <script src="google-pay.js" defer></script> -->
+    <script src="apple-pay.js" defer></script>
+  </head>
+  <body>
+    <main>
+      
+      <h1>Google Pay</h1>
+
+
+      <div id="payment-request-button">
+        <!-- A Stripe Element will be inserted here if the browser supports this type of payment method. -->
+      </div>
+      <div id="apple-payment-request-button"></div>
+
+      <div id="messages" role="alert"></div>
+      <button type="button" id="click" onClick="pay(200)">Click me</button>
+      
+    </main>
+  </body>
+</html>
